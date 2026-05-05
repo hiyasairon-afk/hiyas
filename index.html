@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airon Hiyas Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #b4a79c;
+            color: black;
+        }
+        header {
+            background-color: #8f7e70;
+            padding: 15px;
+            text-align: right;
+        }
+        header nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .home {
+            background-color: #90a989;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        button {
+            background-color: #d3c7bc;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 20px 0 10px 20px;
+        }
+        p {
+            margin: 0 20px 20px 20px;
+            font-size: 16px;
+        }
+        .skill-box img, .card img {
+            width: 100px;
+            height: auto;
+            margin: 10px;
+        }
+        .contact-box p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Project</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="home">
+    <div class="left">
+        <h2>AIRON HIYAS</h2>
+        <!-- UPDATED IMAGE -->
+        <img src="profile.jpg" class="profile-img">
+    </div>
+    <div class="right">
+        <h1>Hi, I am</h1>
+        <h2>AIRON HIYAS</h2>
+        <p>Your Web Developer</p>
+    </div>
+</section>
+
+<section class="about">
+    <button>About Me</button>
+    <p>
+        I am a passionate web developer who enjoys creating responsive and user-friendly websites. 
+        I like turning ideas into real digital experiences by combining design and coding.
+    </p>
+    <p>
+        I have experience working with technologies like HTML, CSS, and JavaScript, and I’m continuously 
+        improving my skills by exploring new tools and trends in web development.
+    </p>
+</section>
+
+<section class="skills">
+    <button>Skills</button>
+    <div class="skill-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919830.png">
+        <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png">
+    </div>
+</section>
+
+<section class="project">
+    <button>Project</button>
+    <div class="project-box">
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/2721/2721299.png">
+            <p>Smart Quiz App</p>
+        </div>
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png">
+            <p>Task Manager App</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <button>Contact</button>
+    <div class="contact-box">
+        <p>📧 airjfreheg@gmail.com</p>
+        <p>📞 09234875327</p>
+        <p>📱 09632762106</p>
+    </div>
+</section>
+
+</body>
+</html>
